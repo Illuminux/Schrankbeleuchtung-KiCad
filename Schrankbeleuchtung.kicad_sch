@@ -4,6 +4,10 @@
 	(generator_version "9.0")
 	(uuid "cc60be61-8ee6-4f84-ba1f-89010219c11b")
 	(paper "A4")
+	(title_block
+		(title "Schrankbeleuchtung")
+		(date "2025-06-08")
+	)
 	(lib_symbols
 		(symbol "Connector:Jack-DC"
 			(pin_names
@@ -3124,12 +3128,100 @@
 		(uuid "e2e6190c-004c-40ba-8991-efb5f944359d")
 	)
 	(no_connect
+		(at 59.69 125.73)
+		(uuid "0341e81a-5054-4364-84c6-447d54f50f98")
+	)
+	(no_connect
+		(at 59.69 133.35)
+		(uuid "16213997-386c-4b56-81f1-7b54cb42107f")
+	)
+	(no_connect
+		(at 105.41 140.97)
+		(uuid "173e9f98-42ac-47bd-b0c0-b7e1ec153dca")
+	)
+	(no_connect
+		(at 59.69 161.29)
+		(uuid "1b7513d7-0ca9-4b60-9afb-36dbc5a55777")
+	)
+	(no_connect
+		(at 105.41 138.43)
+		(uuid "1ebd35da-b263-4d9b-af9f-af7dd7de18cc")
+	)
+	(no_connect
+		(at 105.41 143.51)
+		(uuid "1fd91acd-54c7-480f-afd1-25a3e229f662")
+	)
+	(no_connect
+		(at 59.69 168.91)
+		(uuid "24b4d3b0-efef-427c-86b3-0a8655a12c88")
+	)
+	(no_connect
+		(at 105.41 153.67)
+		(uuid "2a0fe39c-aee5-4095-8f70-84599f206c92")
+	)
+	(no_connect
+		(at 105.41 148.59)
+		(uuid "38ea5699-f831-4c6c-a9df-c8e3cc5dc760")
+	)
+	(no_connect
+		(at 105.41 168.91)
+		(uuid "407d2307-f109-4cca-82ca-0dd1fb98bb1b")
+	)
+	(no_connect
+		(at 105.41 133.35)
+		(uuid "4e62b21a-5da8-4dc0-a6d2-36b92a7cd890")
+	)
+	(no_connect
 		(at 50.8 63.5)
 		(uuid "706e9b72-4824-435d-ae3c-8a398bcdc69c")
 	)
 	(no_connect
+		(at 105.41 163.83)
+		(uuid "7645c71e-4492-40ad-90c7-5276e05d68a0")
+	)
+	(no_connect
+		(at 105.41 146.05)
+		(uuid "7811973d-43b6-47cb-92dc-6223c4cd162d")
+	)
+	(no_connect
+		(at 59.69 123.19)
+		(uuid "7a208374-aaa0-4c44-9742-2a01e15e2d78")
+	)
+	(no_connect
+		(at 59.69 163.83)
+		(uuid "8331a5fe-bd68-4976-86aa-4ec4ff4c8660")
+	)
+	(no_connect
+		(at 59.69 158.75)
+		(uuid "8fd90db3-0c6b-4330-af52-a4fa4c89a61f")
+	)
+	(no_connect
+		(at 105.41 161.29)
+		(uuid "93a3a6a3-0f5f-4b1c-a675-172bd689f24d")
+	)
+	(no_connect
+		(at 59.69 166.37)
+		(uuid "afea6f16-86b1-414a-bd51-6460e6c5b650")
+	)
+	(no_connect
+		(at 105.41 135.89)
+		(uuid "ca016569-c2a8-405b-a276-18359b2947f7")
+	)
+	(no_connect
+		(at 59.69 156.21)
+		(uuid "cb88caba-d4ff-4659-aa64-fd2ddda0e67b")
+	)
+	(no_connect
+		(at 59.69 130.81)
+		(uuid "cfa5a94d-43f0-4856-9d7c-a72c283a836e")
+	)
+	(no_connect
 		(at 76.2 63.5)
 		(uuid "edeaccf1-9979-42bb-9560-8f95d33047ce")
+	)
+	(no_connect
+		(at 105.41 158.75)
+		(uuid "ee45b515-9fb4-4492-8e68-ee1273a1e08c")
 	)
 	(wire
 		(pts
@@ -4049,7 +4141,6 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "004466b2-6ccd-4102-96d5-d72d0e9ecb0e")
 		(property "Reference" "J9"
 			(at 267.97 149.8599 0)
@@ -4094,6 +4185,14 @@
 					(size 1.27 1.27)
 				)
 				(hide yes)
+			)
+		)
+		(property "Name" "Sensor 4"
+			(at 265.43 147.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(pin "2"
@@ -4317,7 +4416,6 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "1142e165-e7b1-4df8-9f8c-710257f27cac")
 		(property "Reference" "J8"
 			(at 204.47 149.8599 0)
@@ -4362,6 +4460,14 @@
 					(size 1.27 1.27)
 				)
 				(hide yes)
+			)
+		)
+		(property "Name" "Sensor 3"
+			(at 201.93 147.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(pin "2"
@@ -4637,7 +4743,6 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "1982fe23-e64c-4e06-9773-741273817a09")
 		(property "Reference" "J4"
 			(at 204.47 59.6899 0)
@@ -4684,6 +4789,14 @@
 				(hide yes)
 			)
 		)
+		(property "Name" "LED 3"
+			(at 201.93 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "bb0b4885-bb9f-40cb-963e-7c3f413ebb09")
 		)
@@ -4707,7 +4820,6 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "1acfc63f-061b-46f4-bc02-2a34695ac427")
 		(property "Reference" "J6"
 			(at 204.47 115.5699 0)
@@ -4752,6 +4864,14 @@
 					(size 1.27 1.27)
 				)
 				(hide yes)
+			)
+		)
+		(property "Name" "Sensor 1"
+			(at 201.93 113.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(pin "2"
@@ -5049,7 +5169,6 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "28a9b8db-64ba-4ece-aced-3bf6592ee191")
 		(property "Reference" "J2"
 			(at 204.47 24.1299 0)
@@ -5094,6 +5213,15 @@
 					(size 1.27 1.27)
 				)
 				(hide yes)
+			)
+		)
+		(property "Name" "LED 1"
+			(at 201.93 20.574 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify top)
 			)
 		)
 		(pin "2"
@@ -5255,7 +5383,6 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "32ade709-258b-4e3b-905b-54b415dc930c")
 		(property "Reference" "J7"
 			(at 267.97 115.5699 0)
@@ -5300,6 +5427,14 @@
 					(size 1.27 1.27)
 				)
 				(hide yes)
+			)
+		)
+		(property "Name" "Sensor 2"
+			(at 265.43 113.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(pin "2"
@@ -5462,7 +5597,6 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "51fd1b79-928e-4542-a297-57d43ae77a83")
 		(property "Reference" "J3"
 			(at 269.24 24.1299 0)
@@ -5507,6 +5641,14 @@
 					(size 1.27 1.27)
 				)
 				(hide yes)
+			)
+		)
+		(property "Name" "LED 2"
+			(at 266.7 21.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(pin "2"
@@ -6986,7 +7128,6 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "b2997b2e-6c67-497d-b16c-47eb799f7cc3")
 		(property "Reference" "J5"
 			(at 269.24 59.6899 0)
@@ -7031,6 +7172,14 @@
 					(size 1.27 1.27)
 				)
 				(hide yes)
+			)
+		)
+		(property "Name" "LED 4"
+			(at 266.7 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(pin "2"
