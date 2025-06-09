@@ -1,0 +1,4 @@
+(sym_lib_table
+  (version 7)
+  (lib (name "Inductor_Wurth_WE-HCF")(type "KiCad")(uri "${KIPRJMOD}/Libraries/KiCad_WE-HCF/symbols/Inductor_Wurth_WE-HCF.kicad_sym")(options "")(descr ""))
+)
