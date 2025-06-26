@@ -1,54 +1,75 @@
+# 💡 Schrankbeleuchtung
 
-# Schrankbeleuchtung mit Raspberry Pi Pico W
+Automatisierte LED-Beleuchtung für Schränke, basierend auf einem Raspberry Pi Pico W. Türsensoren aktivieren bei Öffnung die zugeordneten LED-Gruppen über MOSFET-Schaltungen.
 
-## 🔧 Hardware-Komponenten
-- **Raspberry Pi Pico W** – Steuerung via PWM und GPIO
-- **4x IRLML6344TRPBF MOSFETs** – LED-Treiber, je mit 100 Ω Gate-Widerstand (RQ73C2A100RBTD)
-- **4x LED-Streifen (12 V)** – angeschlossen über B2B-XH-AMLFSNP (Pin 1 = 12 V, Pin 2 = Drain)
-- **4x Reedkontakte** – angeschlossen über B2B-XH-AMLFSNP (Pin 1 = GPIO, Pin 2 = GND), je mit 10 kΩ Pull-up gegen 3,3 V
-- **LM2596SX-5.0NOPB** – 5 V-Festspannungsregler
-  - CIN: 470 µF Elko (EEE-FKE101XAL)
-  - COUT: 100 µF MLCC (GRM32ER61A107ME0L)
-  - Spule: 33 µH (SPM7054VC-330M-D)
-  - Schottky-Diode: SS34 (Sperrrichtung gegen GND)
+![Schaltplanübersicht](Schrankbeleuchtung.png)
 
-## ⚙️ Funktion
-- Reedkontakte erkennen Türöffnung/-schließung
-- Pico steuert LED-Fading per PWM
-- LED-Streifen werden über MOSFETs geschaltet
-- Versorgung: 12 V Netzteil → 5 V über LM2596 für Pico
+---
 
-## 🧠 Zusätzliche Hinweise & Ideen
+## 🧩 Features
 
-### Sicherheit & Schutz
-- **Verpolungsschutz**: Eine Diode am Eingang des 12 V Netzteils könnte helfen, versehentliche Verpolung zu vermeiden.
-- **Sicherung**: Eine kleine Sicherung (z. B. 1 A) in der 12 V-Zuleitung schützt bei Kurzschluss.
+- Bis zu 4 separat schaltbare LED-Gruppen
+- Automatische Steuerung über Magnetsensoren oder Reed-Schalter
+- Versorgung mit 12 V DC, intern auf 5 V und 3.3 V geregelt
+- Geringe Standby-Leistung durch Low-RDS(on)-MOSFETs
+- Erweiterbare Anschlüsse über XH-Steckerleisten
 
-### Software-Logik (Pico W)
-- Debouncing der Reedkontakte (z. B. per Software mit Zeitverzögerung)
-- PWM-Fading mit sanftem Ein-/Ausblenden (z. B. logarithmisch für angenehmeres Licht)
-- Optional: WLAN-Funktionalität für Statusüberwachung oder OTA-Updates
+---
 
-### Erweiterungen
-- **Helligkeitssensor**: Nur bei Dunkelheit einschalten
-- **Taster für manuelle Steuerung**
-- **Webinterface**: Steuerung und Statusanzeige über Smartphone
+## 🔌 GPIO-Belegung (Pico W)
 
-### Dokumentation
-- Schaltplan (z. B. mit KiCad oder Fritzing)
-- PCB-Layout, falls du eine Platine planst
-- Fotos vom Aufbau oder Gehäuse
+| Funktion         | GPIO     |
+|------------------|----------|
+| LED 1 (Q1)       | GPIO02   |
+| LED 2 (Q2)       | GPIO04   |
+| LED 3 (Q3)       | GPIO05   |
+| LED 4 (Q4)       | GPIO06   |
+| Sensor 1         | GPIO06   |
+| Sensor 2         | GPIO07   |
+| Sensor 3         | GPIO14   |
+| Sensor 4         | GPIO15   |
 
-## 📦 Zusammenfassung als Tabelle (für Doku-Zwecke)
+---
 
-| Komponente               | Funktion                                  |
-|--------------------------|-------------------------------------------|
-| Raspberry Pi Pico W      | Steuerung, PWM, Reedkontakt-Auswertung    |
-| IRLML6344TRPBF (4x)      | MOSFETs zur LED-Ansteuerung               |
-| LED-Streifen (4x, 12 V)  | Beleuchtung                               |
-| Reedkontakte (4x)        | Türerkennung                              |
-| LM2596SX-5.0             | 12 V → 5 V Spannungsregler                |
-| Elko 470 µF              | Eingangspuffer für LM2596                 |
-| MLCC 100 µF              | Ausgangspuffer für LM2596                 |
-| Spule 33 µH              | Teil des Schaltreglers                    |
-| Schottky-Diode SS34      | Freilaufdiode / Schutz                    |
+## 🛠 Komponenten (Auszug)
+
+| Bauteil      | Typ / Wert              | Bestellnummer (Mouser)  |
+|--------------|-------------------------|--------------------------|
+| A1           | Raspberry Pi Pico W     | 358-SC0918               |
+| U1           | TPS560430XDBVT          | 595-TPS560430XDBVT       |
+| Q1–Q4        | IRLML0030TRPBF          | 942-IRLML0030TRPBF       |
+| R1–R4        | 187 Ω Widerstände       | 667-ERA-6AEB1870V        |
+| R5–R9        | 10 kΩ Pull-Ups          | 667-ERA-6APB103V         |
+| C1–C3        | 10 µF / 22 µF / 0.1 µF  | siehe BOM                |
+| L1           | 10 µH Spule             | 81-LQH44PN100MPRL        |
+| J2–J9        | XH-Stecker + Buchsen    | 306-B2B-XH-AMLFSNP       |
+
+Die vollständige Stückliste befindet sich in [Schrankbeleuchtung.xlsx](Schrankbeleuchtung.xlsx)
+
+---
+
+## ⚙️ Inbetriebnahme
+
+1. Platine bestücken (nach Schaltplan aus *Schrankbeleuchtung.pdf*)
+2. 12 V Versorgung an J1 anschließen
+3. Türsensoren an J2–J5, LEDs an J6–J9 verbinden
+4. Firmware auf Pico W flashen (z. B. mit MicroPython)
+5. Funktion testen – bei Türöffnung sollten zugehörige LEDs leuchten
+
+---
+
+## 🧠 Firmware-Hinweise
+
+Die Firmware sollte:
+
+- LED-GPIOs als Output setzen
+- Sensor-GPIOs mit Pull-Up und Debounce abfragen
+- Bei erkanntem Öffnungssignal LEDs aktivieren
+- Optional: MQTT-/WLAN-Anbindung via Pico W realisieren
+
+
+---
+
+## ⚖️ Lizenz
+
+Dieses Projekt steht unter der MIT-Lizenz. Feel free to modify, use & share!
