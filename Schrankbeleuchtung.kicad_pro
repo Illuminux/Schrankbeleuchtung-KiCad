@@ -37,9 +37,9 @@
         "other_text_thickness": 0.15,
         "other_text_upright": false,
         "pads": {
-          "drill": 0.8,
-          "height": 1.27,
-          "width": 2.54
+          "drill": 2.2,
+          "height": 3.5,
+          "width": 3.5
         },
         "silk_line_width": 0.1,
         "silk_text_italic": false,
@@ -52,92 +52,7 @@
         }
       },
       "diff_pair_dimensions": [],
-      "drc_exclusions": [
-        [
-          "courtyards_overlap|50667500|53855000|04f28467-98cb-4871-84db-d10f550c8d02|d29c8c61-dff7-4132-bcee-b375949170d5",
-          ""
-        ],
-        [
-          "courtyards_overlap|53945000|61257465|1e0b9e19-b78c-414a-a38b-83da329dbc79|d29c8c61-dff7-4132-bcee-b375949170d5",
-          ""
-        ],
-        [
-          "courtyards_overlap|54605000|53805000|3d35e41f-4892-4deb-b979-ca912cf4a26e|d29c8c61-dff7-4132-bcee-b375949170d5",
-          ""
-        ],
-        [
-          "courtyards_overlap|57445000|61728683|d29c8c61-dff7-4132-bcee-b375949170d5|dff655d7-5aeb-48f5-9aa2-ac15cdb2026d",
-          ""
-        ],
-        [
-          "courtyards_overlap|58542500|53855000|38566907-cd5d-488d-b420-0a71bfebdea4|d29c8c61-dff7-4132-bcee-b375949170d5",
-          ""
-        ],
-        [
-          "courtyards_overlap|59055000|61945444|d29c8c61-dff7-4132-bcee-b375949170d5|fc3d75b8-38ea-47ff-bf0d-f7ee9dcc392c",
-          ""
-        ],
-        [
-          "courtyards_overlap|62555000|58825000|b5292fc3-089b-4654-a0c5-f2d2de75c8ee|d29c8c61-dff7-4132-bcee-b375949170d5",
-          ""
-        ],
-        [
-          "courtyards_overlap|62605000|53805000|d29c8c61-dff7-4132-bcee-b375949170d5|e3f13e70-e6e0-4eac-9a06-da05d855f7c3",
-          ""
-        ],
-        [
-          "courtyards_overlap|66055000|58825000|d29c8c61-dff7-4132-bcee-b375949170d5|db00ac4d-dcaa-4f2c-8af2-299eb0d7f5b4",
-          ""
-        ],
-        [
-          "courtyards_overlap|70535087|58825000|6d6915bf-9bcd-4ee8-b420-6b55c5b9f660|d29c8c61-dff7-4132-bcee-b375949170d5",
-          ""
-        ],
-        [
-          "courtyards_overlap|73055000|58825000|b4926fdb-a3dd-4c49-adc1-73e3c10e5834|d29c8c61-dff7-4132-bcee-b375949170d5",
-          ""
-        ],
-        [
-          "courtyards_overlap|76555000|58825000|a1bf8d93-9a89-4a94-90ff-29d202f7e4a3|d29c8c61-dff7-4132-bcee-b375949170d5",
-          ""
-        ],
-        [
-          "silk_edge_clearance|45000000|30442500|182d3a33-2ae8-4e31-b9e1-f5a10645bda4|b400a8ca-47d2-4713-9e5e-10e00455258d",
-          ""
-        ],
-        [
-          "silk_edge_clearance|45000000|39642500|182d3a33-2ae8-4e31-b9e1-f5a10645bda4|f6c56b54-c62f-4f05-a714-a29d2a8b7bd4",
-          ""
-        ],
-        [
-          "silk_edge_clearance|45000000|51500000|182d3a33-2ae8-4e31-b9e1-f5a10645bda4|633587d4-98f3-46af-acb7-fec535317341",
-          ""
-        ],
-        [
-          "silk_edge_clearance|45000000|59720000|182d3a33-2ae8-4e31-b9e1-f5a10645bda4|2cd71a9f-eef6-48c0-916d-f8786965667e",
-          ""
-        ],
-        [
-          "silk_edge_clearance|45040000|51500000|182d3a33-2ae8-4e31-b9e1-f5a10645bda4|3dadd142-c950-4d98-962a-8fcfff61d40a",
-          ""
-        ],
-        [
-          "silk_edge_clearance|45040000|51710000|182d3a33-2ae8-4e31-b9e1-f5a10645bda4|62c5239d-d089-4933-b16d-5c7af31c561d",
-          ""
-        ],
-        [
-          "silk_edge_clearance|45040000|59510000|182d3a33-2ae8-4e31-b9e1-f5a10645bda4|b9cb70f7-e52b-4ee8-bc8b-627c28cb915d",
-          ""
-        ],
-        [
-          "silk_edge_clearance|45040000|59720000|182d3a33-2ae8-4e31-b9e1-f5a10645bda4|d6678122-2cc0-4569-bf58-b7e102a344c9",
-          ""
-        ],
-        [
-          "silk_over_copper|50040000|55250001|3c3b1aed-544d-4f41-8a34-a696e6e0588a|00000000-0000-0000-0000-000000000000",
-          ""
-        ]
-      ],
+      "drc_exclusions": [],
       "meta": {
         "version": 2
       },
@@ -572,7 +487,7 @@
       "idf": "",
       "netlist": "",
       "plot": "Schrankbeleuchtung-GBR/",
-      "pos_files": "Fab/",
+      "pos_files": "Schrankbeleuchtung-GBR/",
       "specctra_dsn": "",
       "step": "Schrankbeleuchtung.step",
       "svg": "",

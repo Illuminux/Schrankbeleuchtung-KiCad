@@ -2966,16 +2966,16 @@
 		(uuid "0341e81a-5054-4364-84c6-447d54f50f98")
 	)
 	(no_connect
+		(at 59.69 148.59)
+		(uuid "0a299d71-333a-4fee-a12c-17ffef39815d")
+	)
+	(no_connect
 		(at 59.69 133.35)
 		(uuid "16213997-386c-4b56-81f1-7b54cb42107f")
 	)
 	(no_connect
 		(at 105.41 140.97)
 		(uuid "173e9f98-42ac-47bd-b0c0-b7e1ec153dca")
-	)
-	(no_connect
-		(at 59.69 161.29)
-		(uuid "1b7513d7-0ca9-4b60-9afb-36dbc5a55777")
 	)
 	(no_connect
 		(at 105.41 138.43)
@@ -3006,10 +3006,6 @@
 		(uuid "407d2307-f109-4cca-82ca-0dd1fb98bb1b")
 	)
 	(no_connect
-		(at 105.41 133.35)
-		(uuid "4e62b21a-5da8-4dc0-a6d2-36b92a7cd890")
-	)
-	(no_connect
 		(at 105.41 163.83)
 		(uuid "7645c71e-4492-40ad-90c7-5276e05d68a0")
 	)
@@ -3026,10 +3022,6 @@
 		(uuid "8331a5fe-bd68-4976-86aa-4ec4ff4c8660")
 	)
 	(no_connect
-		(at 59.69 158.75)
-		(uuid "8fd90db3-0c6b-4330-af52-a4fa4c89a61f")
-	)
-	(no_connect
 		(at 105.41 161.29)
 		(uuid "93a3a6a3-0f5f-4b1c-a675-172bd689f24d")
 	)
@@ -3042,16 +3034,24 @@
 		(uuid "ca016569-c2a8-405b-a276-18359b2947f7")
 	)
 	(no_connect
-		(at 59.69 156.21)
-		(uuid "cb88caba-d4ff-4659-aa64-fd2ddda0e67b")
-	)
-	(no_connect
 		(at 59.69 130.81)
 		(uuid "cfa5a94d-43f0-4856-9d7c-a72c283a836e")
 	)
 	(no_connect
+		(at 59.69 146.05)
+		(uuid "db0a616f-00bb-4e1f-8bc8-fa9bd3960452")
+	)
+	(no_connect
+		(at 59.69 151.13)
+		(uuid "ea3ca526-5716-4d4f-ac77-9e1e19394ec5")
+	)
+	(no_connect
 		(at 105.41 158.75)
 		(uuid "ee45b515-9fb4-4492-8e68-ee1273a1e08c")
+	)
+	(no_connect
+		(at 105.41 133.35)
+		(uuid "fb8831b4-b6fe-4c88-812a-b3392168b6dd")
 	)
 	(wire
 		(pts
@@ -3115,7 +3115,7 @@
 	)
 	(wire
 		(pts
-			(xy 139.7 181.61) (xy 139.7 184.15)
+			(xy 127 181.61) (xy 127 184.15)
 		)
 		(stroke
 			(width 0)
@@ -3175,6 +3175,16 @@
 	)
 	(wire
 		(pts
+			(xy 38.1 156.21) (xy 59.69 156.21)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "19539e0a-9344-47cc-aeb1-68b588d9b3aa")
+	)
+	(wire
+		(pts
 			(xy 78.74 27.94) (xy 83.82 27.94)
 		)
 		(stroke
@@ -3182,16 +3192,6 @@
 			(type default)
 		)
 		(uuid "1dae3d9c-89fe-4ab5-b613-eb8748fba012")
-	)
-	(wire
-		(pts
-			(xy 38.1 148.59) (xy 59.69 148.59)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "1e33489e-e68c-4472-baf7-663b16a25d7c")
 	)
 	(wire
 		(pts
@@ -3232,16 +3232,6 @@
 			(type default)
 		)
 		(uuid "2b2b6181-f614-4372-8ba1-b1d888339c76")
-	)
-	(wire
-		(pts
-			(xy 38.1 153.67) (xy 59.69 153.67)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "2cd79e76-1ea0-4293-8f29-01a681fabb5a")
 	)
 	(wire
 		(pts
@@ -3305,7 +3295,7 @@
 	)
 	(wire
 		(pts
-			(xy 38.1 151.13) (xy 59.69 151.13)
+			(xy 38.1 158.75) (xy 59.69 158.75)
 		)
 		(stroke
 			(width 0)
@@ -3445,16 +3435,6 @@
 	)
 	(wire
 		(pts
-			(xy 38.1 146.05) (xy 59.69 146.05)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "69d338d2-71da-40ee-864b-751def9f0c2f")
-	)
-	(wire
-		(pts
 			(xy 180.34 149.86) (xy 186.69 149.86)
 		)
 		(stroke
@@ -3475,7 +3455,7 @@
 	)
 	(wire
 		(pts
-			(xy 152.4 181.61) (xy 152.4 184.15)
+			(xy 139.7 181.61) (xy 139.7 184.15)
 		)
 		(stroke
 			(width 0)
@@ -3555,6 +3535,16 @@
 	)
 	(wire
 		(pts
+			(xy 152.4 181.61) (xy 152.4 184.15)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7f22bff4-bfa1-4883-b4ba-440604cb9314")
+	)
+	(wire
+		(pts
 			(xy 147.32 73.66) (xy 158.75 73.66)
 		)
 		(stroke
@@ -3612,6 +3602,16 @@
 			(type default)
 		)
 		(uuid "90f3f0cd-fffb-4c47-bf35-6bb31804a538")
+	)
+	(wire
+		(pts
+			(xy 38.1 161.29) (xy 59.69 161.29)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9154f5f7-5071-4ba3-84da-dcc09fce624d")
 	)
 	(wire
 		(pts
@@ -3835,7 +3835,7 @@
 	)
 	(wire
 		(pts
-			(xy 127 181.61) (xy 127 184.15)
+			(xy 114.3 181.61) (xy 114.3 184.15)
 		)
 		(stroke
 			(width 0)
@@ -3943,6 +3943,16 @@
 		)
 		(uuid "fedbb0f6-e912-482f-95d3-5c97c623ae6d")
 	)
+	(wire
+		(pts
+			(xy 38.1 153.67) (xy 59.69 153.67)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ff699bb4-15a7-48e1-a363-2272f2fed26e")
+	)
 	(label "GPIO04"
 		(at 149.86 73.66 0)
 		(effects
@@ -3954,7 +3964,7 @@
 		(uuid "084a5078-c946-4ec8-ba65-5b508584fba3")
 	)
 	(label "GPIO08"
-		(at 40.64 151.13 0)
+		(at 40.64 158.75 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3964,7 +3974,7 @@
 		(uuid "1919386a-7f88-4c22-83f8-d78ea38461fb")
 	)
 	(label "GPIO09"
-		(at 40.64 153.67 0)
+		(at 40.64 161.29 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3994,7 +4004,7 @@
 		(uuid "4c40c645-1ea6-4efb-ab2a-184b0f5cbd8d")
 	)
 	(label "GPIO07"
-		(at 40.64 148.59 0)
+		(at 40.64 156.21 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4074,7 +4084,7 @@
 		(uuid "cedb4171-a6e4-4916-9bf6-b200e22774f4")
 	)
 	(label "GPIO06"
-		(at 40.64 146.05 0)
+		(at 40.64 153.67 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4113,7 +4123,7 @@
 		(dnp no)
 		(uuid "004466b2-6ccd-4102-96d5-d72d0e9ecb0e")
 		(property "Reference" "J9"
-			(at 257.81 149.8599 0)
+			(at 257.556 150.622 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4128,9 +4138,10 @@
 					(size 1.27 1.27)
 				)
 				(justify left)
+				(hide yes)
 			)
 		)
-		(property "Footprint" "Connector_JST:JST_XH_B2B-XH-AM_1x02_P2.50mm_Vertical"
+		(property "Footprint" "Connector_JST:JST_XH_B2B-XH-A_1x02_P2.50mm_Vertical"
 			(at 255.27 149.86 0)
 			(effects
 				(font
@@ -4458,7 +4469,7 @@
 		(dnp no)
 		(uuid "1142e165-e7b1-4df8-9f8c-710257f27cac")
 		(property "Reference" "J8"
-			(at 194.31 149.8599 0)
+			(at 194.31 151.13 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4473,9 +4484,10 @@
 					(size 1.27 1.27)
 				)
 				(justify left)
+				(hide yes)
 			)
 		)
-		(property "Footprint" "Connector_JST:JST_XH_B2B-XH-AM_1x02_P2.50mm_Vertical"
+		(property "Footprint" "Connector_JST:JST_XH_B2B-XH-A_1x02_P2.50mm_Vertical"
 			(at 191.77 149.86 0)
 			(effects
 				(font
@@ -4586,6 +4598,72 @@
 			(project ""
 				(path "/cc60be61-8ee6-4f84-ba1f-89010219c11b"
 					(reference "#PWR01")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 152.4 184.15 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "174a3d33-7ea4-45ed-a511-333e1127bbe6")
+		(property "Reference" "#PWR08"
+			(at 152.4 190.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 152.4 189.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 152.4 184.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 152.4 184.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 152.4 184.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "6d00ad31-2e35-4c39-b5fc-8d37e2d88608")
+		)
+		(instances
+			(project "Schrankbeleuchtung"
+				(path "/cc60be61-8ee6-4f84-ba1f-89010219c11b"
+					(reference "#PWR08")
 					(unit 1)
 				)
 			)
@@ -4785,7 +4863,7 @@
 		(dnp no)
 		(uuid "1982fe23-e64c-4e06-9773-741273817a09")
 		(property "Reference" "J4"
-			(at 194.31 59.6899 0)
+			(at 194.31 60.96 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4800,9 +4878,10 @@
 					(size 1.27 1.27)
 				)
 				(justify left)
+				(hide yes)
 			)
 		)
-		(property "Footprint" "Connector_JST:JST_XH_B2B-XH-AM_1x02_P2.50mm_Vertical"
+		(property "Footprint" "Connector_JST:JST_XH_B2B-XH-A_1x02_P2.50mm_Vertical"
 			(at 191.77 59.69 0)
 			(effects
 				(font
@@ -4862,7 +4941,7 @@
 		(dnp no)
 		(uuid "1acfc63f-061b-46f4-bc02-2a34695ac427")
 		(property "Reference" "J6"
-			(at 194.31 115.5699 0)
+			(at 194.056 116.84 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4877,9 +4956,10 @@
 					(size 1.27 1.27)
 				)
 				(justify left)
+				(hide yes)
 			)
 		)
-		(property "Footprint" "Connector_JST:JST_XH_B2B-XH-AM_1x02_P2.50mm_Vertical"
+		(property "Footprint" "Connector_JST:JST_XH_B2B-XH-A_1x02_P2.50mm_Vertical"
 			(at 191.77 115.57 0)
 			(effects
 				(font
@@ -4947,7 +5027,7 @@
 				)
 			)
 		)
-		(property "Value" "100R"
+		(property "Value" "187R"
 			(at 227.33 69.85 90)
 			(effects
 				(font
@@ -4973,7 +5053,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "RQ73C2A100RBTD"
+		(property "Description" "RQ73C2A187RBTD"
 			(at 227.33 73.66 0)
 			(effects
 				(font
@@ -5164,7 +5244,7 @@
 				)
 			)
 		)
-		(property "Value" "100R"
+		(property "Value" "187R"
 			(at 162.56 69.85 90)
 			(effects
 				(font
@@ -5190,7 +5270,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "RQ73C2A100RBTD"
+		(property "Description" "RQ73C2A187RBTD"
 			(at 162.56 73.66 0)
 			(effects
 				(font
@@ -5290,7 +5370,7 @@
 		(dnp no)
 		(uuid "28a9b8db-64ba-4ece-aced-3bf6592ee191")
 		(property "Reference" "J2"
-			(at 194.31 24.1299 0)
+			(at 194.056 25.4 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5305,9 +5385,10 @@
 					(size 1.27 1.27)
 				)
 				(justify left)
+				(hide yes)
 			)
 		)
-		(property "Footprint" "Connector_JST:JST_XH_B2B-XH-AM_1x02_P2.50mm_Vertical"
+		(property "Footprint" "Connector_JST:JST_XH_B2B-XH-A_1x02_P2.50mm_Vertical"
 			(at 191.77 24.13 0)
 			(effects
 				(font
@@ -5513,7 +5594,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "IRLML6344"
+		(property "Value" "IRLML0030TRPBF"
 			(at 248.92 74.9299 0)
 			(effects
 				(font
@@ -5580,7 +5661,7 @@
 		(dnp no)
 		(uuid "32ade709-258b-4e3b-905b-54b415dc930c")
 		(property "Reference" "J7"
-			(at 257.81 115.5699 0)
+			(at 257.81 116.84 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5595,9 +5676,10 @@
 					(size 1.27 1.27)
 				)
 				(justify left)
+				(hide yes)
 			)
 		)
-		(property "Footprint" "Connector_JST:JST_XH_B2B-XH-AM_1x02_P2.50mm_Vertical"
+		(property "Footprint" "Connector_JST:JST_XH_B2B-XH-A_1x02_P2.50mm_Vertical"
 			(at 255.27 115.57 0)
 			(effects
 				(font
@@ -5666,7 +5748,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "IRLML6344"
+		(property "Value" "IRLML0030TRPBF"
 			(at 184.15 74.9299 0)
 			(effects
 				(font
@@ -5800,7 +5882,7 @@
 		(dnp no)
 		(uuid "51fd1b79-928e-4542-a297-57d43ae77a83")
 		(property "Reference" "J3"
-			(at 259.08 24.1299 0)
+			(at 258.826 25.146 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5815,9 +5897,10 @@
 					(size 1.27 1.27)
 				)
 				(justify left)
+				(hide yes)
 			)
 		)
-		(property "Footprint" "Connector_JST:JST_XH_B2B-XH-AM_1x02_P2.50mm_Vertical"
+		(property "Footprint" "Connector_JST:JST_XH_B2B-XH-A_1x02_P2.50mm_Vertical"
 			(at 256.54 24.13 0)
 			(effects
 				(font
@@ -6491,7 +6574,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 127 184.15 0)
+		(at 114.3 184.15 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -6500,7 +6583,7 @@
 		(fields_autoplaced yes)
 		(uuid "7f6ae441-6b7c-418c-b81e-cb1a60b381c1")
 		(property "Reference" "#PWR028"
-			(at 127 190.5 0)
+			(at 114.3 190.5 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6509,7 +6592,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 127 189.23 0)
+			(at 114.3 189.23 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6517,7 +6600,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 127 184.15 0)
+			(at 114.3 184.15 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6526,7 +6609,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 127 184.15 0)
+			(at 114.3 184.15 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6535,7 +6618,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 127 184.15 0)
+			(at 114.3 184.15 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6697,6 +6780,74 @@
 			(project "Schrankbeleuchtung"
 				(path "/cc60be61-8ee6-4f84-ba1f-89010219c11b"
 					(reference "C3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Mechanical:MountingHole_Pad")
+		(at 152.4 179.07 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "85799121-cd04-496e-84fe-87d2397789ac")
+		(property "Reference" "H4"
+			(at 154.94 176.5299 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "MountingHole_Pad"
+			(at 154.94 179.0699 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "MountingHole:MountingHole_2.2mm_M2_ISO7380_Pad"
+			(at 152.4 179.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 152.4 179.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Mounting Hole with connection"
+			(at 152.4 179.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "1f4035be-f4c8-425e-bd56-a9c2b26ec369")
+		)
+		(instances
+			(project "Schrankbeleuchtung"
+				(path "/cc60be61-8ee6-4f84-ba1f-89010219c11b"
+					(reference "H4")
 					(unit 1)
 				)
 			)
@@ -6985,7 +7136,7 @@
 				)
 			)
 		)
-		(property "Value" "100R"
+		(property "Value" "187R"
 			(at 227.33 34.29 90)
 			(effects
 				(font
@@ -7011,7 +7162,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "RQ73C2A100RBTD"
+		(property "Description" "RQ73C2A187RBTD"
 			(at 227.33 38.1 0)
 			(effects
 				(font
@@ -7037,7 +7188,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 152.4 184.15 0)
+		(at 139.7 184.15 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -7046,7 +7197,7 @@
 		(fields_autoplaced yes)
 		(uuid "9dca700d-4192-49bc-abc2-60dc29a617a5")
 		(property "Reference" "#PWR030"
-			(at 152.4 190.5 0)
+			(at 139.7 190.5 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7055,7 +7206,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 152.4 189.23 0)
+			(at 139.7 189.23 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7063,7 +7214,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 152.4 184.15 0)
+			(at 139.7 184.15 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7072,7 +7223,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 152.4 184.15 0)
+			(at 139.7 184.15 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7081,7 +7232,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 152.4 184.15 0)
+			(at 139.7 184.15 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7120,7 +7271,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "IRLML6344"
+		(property "Value" "IRLML0030TRPBF"
 			(at 248.92 39.3699 0)
 			(effects
 				(font
@@ -7246,7 +7397,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 139.7 184.15 0)
+		(at 127 184.15 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -7255,7 +7406,7 @@
 		(fields_autoplaced yes)
 		(uuid "ae997bd7-0e02-45cc-9e45-d91e59247595")
 		(property "Reference" "#PWR029"
-			(at 139.7 190.5 0)
+			(at 127 190.5 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7264,7 +7415,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 139.7 189.23 0)
+			(at 127 189.23 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7272,7 +7423,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 139.7 184.15 0)
+			(at 127 184.15 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7281,7 +7432,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 139.7 184.15 0)
+			(at 127 184.15 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7290,7 +7441,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 139.7 184.15 0)
+			(at 127 184.15 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7320,7 +7471,7 @@
 		(dnp no)
 		(uuid "b2997b2e-6c67-497d-b16c-47eb799f7cc3")
 		(property "Reference" "J5"
-			(at 259.08 59.6899 0)
+			(at 259.08 60.706 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7335,9 +7486,10 @@
 					(size 1.27 1.27)
 				)
 				(justify left)
+				(hide yes)
 			)
 		)
-		(property "Footprint" "Connector_JST:JST_XH_B2B-XH-AM_1x02_P2.50mm_Vertical"
+		(property "Footprint" "Connector_JST:JST_XH_B2B-XH-A_1x02_P2.50mm_Vertical"
 			(at 256.54 59.69 0)
 			(effects
 				(font
@@ -7654,7 +7806,7 @@
 	)
 	(symbol
 		(lib_id "Mechanical:MountingHole_Pad")
-		(at 139.7 179.07 0)
+		(at 127 179.07 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom no)
@@ -7663,7 +7815,7 @@
 		(fields_autoplaced yes)
 		(uuid "d1c4b4e9-488f-4fbb-98d6-b3b8f463b882")
 		(property "Reference" "H2"
-			(at 142.24 176.5299 0)
+			(at 129.54 176.5299 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7672,7 +7824,7 @@
 			)
 		)
 		(property "Value" "MountingHole_Pad"
-			(at 142.24 179.0699 0)
+			(at 129.54 179.0699 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7682,7 +7834,7 @@
 			)
 		)
 		(property "Footprint" "MountingHole:MountingHole_2.2mm_M2_ISO7380_Pad"
-			(at 139.7 179.07 0)
+			(at 127 179.07 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7691,7 +7843,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 139.7 179.07 0)
+			(at 127 179.07 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7700,7 +7852,7 @@
 			)
 		)
 		(property "Description" "Mounting Hole with connection"
-			(at 139.7 179.07 0)
+			(at 127 179.07 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7799,7 +7951,7 @@
 	)
 	(symbol
 		(lib_id "Mechanical:MountingHole_Pad")
-		(at 127 179.07 0)
+		(at 114.3 179.07 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom no)
@@ -7808,7 +7960,7 @@
 		(fields_autoplaced yes)
 		(uuid "dd2dbaa4-f1ff-45c3-be3f-952462d20eeb")
 		(property "Reference" "H1"
-			(at 129.54 176.5299 0)
+			(at 116.84 176.5299 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7817,7 +7969,7 @@
 			)
 		)
 		(property "Value" "MountingHole_Pad"
-			(at 129.54 179.0699 0)
+			(at 116.84 179.0699 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7827,7 +7979,7 @@
 			)
 		)
 		(property "Footprint" "MountingHole:MountingHole_2.2mm_M2_ISO7380_Pad"
-			(at 127 179.07 0)
+			(at 114.3 179.07 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7836,7 +7988,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 127 179.07 0)
+			(at 114.3 179.07 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7845,7 +7997,7 @@
 			)
 		)
 		(property "Description" "Mounting Hole with connection"
-			(at 127 179.07 0)
+			(at 114.3 179.07 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8355,7 +8507,7 @@
 	)
 	(symbol
 		(lib_id "Mechanical:MountingHole_Pad")
-		(at 152.4 179.07 0)
+		(at 139.7 179.07 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom no)
@@ -8364,7 +8516,7 @@
 		(fields_autoplaced yes)
 		(uuid "f8d920d2-0bb7-4d1a-8825-6bc18ee85074")
 		(property "Reference" "H3"
-			(at 154.94 176.5299 0)
+			(at 142.24 176.5299 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8373,7 +8525,7 @@
 			)
 		)
 		(property "Value" "MountingHole_Pad"
-			(at 154.94 179.0699 0)
+			(at 142.24 179.0699 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8383,7 +8535,7 @@
 			)
 		)
 		(property "Footprint" "MountingHole:MountingHole_2.2mm_M2_ISO7380_Pad"
-			(at 152.4 179.07 0)
+			(at 139.7 179.07 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8392,7 +8544,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 152.4 179.07 0)
+			(at 139.7 179.07 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8401,7 +8553,7 @@
 			)
 		)
 		(property "Description" "Mounting Hole with connection"
-			(at 152.4 179.07 0)
+			(at 139.7 179.07 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8440,7 +8592,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "IRLML6344"
+		(property "Value" "IRLML0030TRPBF"
 			(at 184.15 39.3699 0)
 			(effects
 				(font
@@ -8515,7 +8667,7 @@
 				)
 			)
 		)
-		(property "Value" "100R"
+		(property "Value" "187R"
 			(at 162.56 34.29 90)
 			(effects
 				(font
@@ -8541,7 +8693,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "RQ73C2A100RBTD"
+		(property "Description" "RQ73C2A187RBTD"
 			(at 162.56 38.1 0)
 			(effects
 				(font
